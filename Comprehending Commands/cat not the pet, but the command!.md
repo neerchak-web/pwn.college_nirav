@@ -4,9 +4,9 @@
 One of the most critical Linux commands is cat. cat is most often used for reading out files, like so:
 ```
 hacker@dojo:~$ cat /challenge/DESCRIPTION.md
-```
 One of the most critical Linux commands is `cat`.
 `cat` is most often used for reading out files, like so:
+```
 cat will concatenate (hence the name) multiple files if provided multiple arguments. For example:
 ```
 hacker@dojo:~$ cat myfile
@@ -27,6 +27,7 @@ In this challenge, I will copy the flag to the flag file in your home directory 
 
 
 
+
 ### Solve
 **Flag:** `pwn.college{sp20EMFJtrxwN1nQaCCcor-1eNV.QXxcTN0wSNyMzNzEzW}`
 
@@ -39,4 +40,5 @@ pwn.college{sp20EMFJtrxwN1nQaCCcor-1eNV.QXxcTN0wSNyMzNzEzW}
 
 ### New Learnings
 `cat` is a command used to display the contents of one or multiple files specified as arguments. In case of multiple files, `cat` will concatenate their contents and display them sequentially.
+
 
